@@ -3,7 +3,29 @@ Theme Name: d-engineer-child
 Template: d-engineer
 */
 
+#page.site {
+  max-width: 1200px;
+  margin: auto;
+}
+.content-area {
+	float: left;
+	width: 70%;
+}
+
+.widget-area {
+	float: left;
+	width: 30%;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
 h1 {
-  color:pink;
-  font-size:2em;
+  color: pink;
+}
+
+header {
+  background-color: yellow;
 }
