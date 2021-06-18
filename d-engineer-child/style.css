@@ -7,15 +7,17 @@ Template: d-engineer
   max-width: 1200px;
   margin: auto;
 }
+
+#secondary.widget-area{
+  float: right;
+	width: 30%;
+}
+
 .content-area {
 	float: left;
 	width: 70%;
 }
 
-.widget-area {
-	float: left;
-	width: 30%;
-}
 
 .site-footer {
 	clear: both;
@@ -28,4 +30,25 @@ h1 {
 
 header {
   background-color: yellow;
+}
+
+.screen-reader-text{
+     display: none;
+}
+
+.site-title {
+  background-color: black;
+  padding: 16px;
+  font-size: 2em;
+}
+
+.site-title a {
+  color:white;
+  text-decoration:none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#primary {
+  float: left;
+  width: 70%;
 }
